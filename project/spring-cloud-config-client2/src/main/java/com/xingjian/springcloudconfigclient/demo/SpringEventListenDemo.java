@@ -20,6 +20,7 @@ public class SpringEventListenDemo {
         context.publishEvent(new MyApplicationEvent("hello world1!!!!"));
         context.publishEvent(new MyApplicationEvent("hello world2!!!!"));
         context.publishEvent(new MyApplicationEvent("hello world3!!!!"));
+        context.publishEvent(new MyApplicationEvent("hello world4!!!!"));
     }
 
 
